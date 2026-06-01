@@ -28,3 +28,11 @@
 //         : `No team wins the trophy`;
 
 // console.log(calcAverage);
+
+// Ternary operator
+
+const age = 15;
+
+age >= 18
+  ? console.log("He can to drink wine!")
+  : console.log("He can just to drink water!");
