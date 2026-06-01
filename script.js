@@ -30,9 +30,17 @@
 // console.log(calcAverage);
 
 // Ternary operator
+// A diferença que existe entre declaração e expressão é que
+// Declaração não produz um valor por si próprio mas uma expressão sim
 
-const age = 15;
+// const age = 15;
 
-age >= 18
-  ? console.log("He can to drink wine!")
-  : console.log("He can just to drink water!");
+// age >= 18
+//   ? console.log("He can to drink wine!")
+//   : console.log("He can just to drink water!");
+
+const bill = 275;
+
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+const total = bill + tip;
+console.log(`The bill was ${bill}, the tip was ${tip}, the total was ${total}`);
