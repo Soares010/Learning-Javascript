@@ -39,8 +39,8 @@
 //   ? console.log("He can to drink wine!")
 //   : console.log("He can just to drink water!");
 
-const bill = 275;
+// const bill = 275;
 
-const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
-const total = bill + tip;
-console.log(`The bill was ${bill}, the tip was ${tip}, the total was ${total}`);
+// const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// const total = bill + tip;
+// console.log(`The bill was ${bill}, the tip was ${tip}, the total was ${total}`);
